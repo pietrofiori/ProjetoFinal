@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    list-style-type: none;
+    font-family: 'Arial';
+    text-decoration: none;
+}
+body{
+    background-image:url('imagens/wallpaper.jpg');
+    background-repeat:repeat-x;
+    background-size: 1600px ;
+   
+    
+}
+#lista #contato{
+    width: 200px;
+    height: 160px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+#lista #contato:hover{
+    background-color: rgb(8, 8, 8);
+    height: 120px;
+}
+#lista ul{
+    display: none;
+}
+#lista #contato:hover > ul{
+    display: block;
+}
+#lista ul li{
+    float: left;
+}
+a#league2{
+    color: white;
+}
+a#contato2{
+    color: white;
+}
+a#contato2:hover{
+    background-color: rgb(10, 48, 48);
+    border: 11px solid transparent;
+    border-radius: 22px;
+    transition: 0.1s;
+}
+a#trabalhe{
+    color: white;
+}
+a#trabalhe:hover{
+    background-color: rgb(10, 48, 48);
+    border: 11px solid transparent;
+    border-radius: 22px;
+    transition: 0.1s;
+}
+a#feedback:hover{
+    background-color: rgb(10, 48, 48);
+    border: 11px solid transparent;
+    border-radius: 22px;
+    transition: 0.1s;
+}
+a#feedback{
+    color: white;
+}
+a#league2{
+    color: white;
+
+}
+a#league2:hover{
+    background-color: rgb(10, 48, 48);
+    border: 11px solid transparent;
+    border-radius: 22px;
+    transition: 0.1s;
+}
+a#Elojob{
+    color: white;
+}
+a#Elojob:hover{
+    background-color: rgb(10, 48, 48);
+    border: 11px solid transparent;
+    border-radius: 22px;
+    transition: 0.1s;
+}
+nav{
+    height: 95px;
+    text-align: center;
+    margin-left: 0px;
+    background-color: rgb(8, 8, 8);
+    
+}
+ul li{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin-top: 45px;
+    margin-right: 40px;
+    color: rgb(240, 240, 240);
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+#lista{
+    background-color: transparent;
+    margin-top: -20px;
+}
+#lista #league{
+    width: 200px;
+    height: 160px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+#lista #league:hover{
+    background-color: rgb(0, 0, 0);
+}
+#lista ul{
+    display: none;
+}
+#lista #league:hover > ul{
+    display: block;
+}
+#lista ul li{
+    float: left;
+}
+a#inicio:hover{
+    background-color: rgb(10, 48, 48);
+    border: 15px solid transparent;
+    border-radius: 22px;
+    transition: 0.1s;
+}
+a#inicio{
+    color: white;
+}
+a#md10{
+    color: white;
+}
+a#md10:hover{
+    background-color: rgb(10, 48, 48);
+    border: 11px solid transparent;
+    border-radius: 22px;
+    transition: 0.1s;
+}
+a#cliente{
+    background-color: rgb(53, 175, 182);
+    border: 11px solid transparent;
+    border-radius: 22px;
+    transition: 0.1s;
+    color: black;
+    font-weight: bold;
+    text-transform: none;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin-top: 110px;
+    color: rgb(86, 219, 219);
+    font-size: 40px;
+}
+p#ph1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+}
+#input1{
+    margin-left: 396px;
+    
+    margin-top: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+}
+#span1{
+    margin-left: 400px;
+    margin-top: 70px;
+    display: block;
+    color: rgb(55, 156, 156);
+    font-weight: bold;
+}
+#input2{
+    margin-left: 798px;
+    margin-top: 0px;
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+}
+#span2{
+    margin-left: 800px;
+    margin-top: -57px;
+    display: block;
+    color: rgb(55, 156, 156);
+    font-weight: bold;
+}
+#input3{
+    margin-left: 390px;
+    display: flex;
+    margin-top: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+   
+}
+#span3{
+    margin-left: 395px;
+    margin-top: 40px;
+    color: rgb(55, 156, 156);
+    font-weight: bold;
+    display: block;
+}
+#input4{
+    margin-left: 800px;
+    display: flex;
+    margin-top: 4px;
+    width: 300px;
+    height: 100px;
+    border-radius: 25px;
+    text-align: center;
+   
+}
+#span4{
+    margin-left: 805px;
+    margin-top: -50px;
+    display: block;
+    color: rgb(55, 156, 156);
+    font-weight: bold;
+}
+button#button{
+    margin-top: 40px;
+    margin-left: 700px;
+    width: 110px;
+    height: 55px;
+    background-color: rgb(47, 186, 194);
+    border-radius: 25px;
+}
+#imgicon{
+    margin-top: -18px;
+    width: 20px;
+    display: block;
+    margin-left: 77px;
+}
+#buttonspan{
+    margin-left: -20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
